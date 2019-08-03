@@ -1,0 +1,25 @@
+;body {
+  font-family: verdana, sans-serif;
+}
+.movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.movie {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+}
+.movie + .movie {
+  border-top: 1px solid lightgray;
+}
+.movie__name {
+  line-height: 30px;
+}
+.movie__btn {
+  border: 2px solid red;
+  border-radius: 5px;
+  font: inherit;
+  margin-left: 2em;
+}
